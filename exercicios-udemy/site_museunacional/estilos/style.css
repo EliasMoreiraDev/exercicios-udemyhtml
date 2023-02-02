@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F5F2EF;
+}
+#caixa-cab{
+    padding-top: 25px;
+    background: url('../imagens/fundo.png');
+
+    height: 150px;
+    margin-bottom: -75px;
+
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.278);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../imagens/fundo.png');
+    width: 100%;
+
+    margin: 0px;
+    margin-top: 10px;
+}
+header h1{
+    margin: 0px;
+    color: white;
+}
+
+nav a{
+    color: #c17c43;
+    text-decoration: none;
+    padding-right: 15px;
+}
+header nav a:hover{
+    color: orange;
+
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    width: 84%;
+    margin: auto;
+}
+main img, iframe, #caixa-form, #caixa-galeria{
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.2);
+}
+article{
+    
+    width: 710px;
+}
+article h5{
+    color: #62897F;
+    font-size: 11.5pt;
+}
+article #conteudo1{
+    display: flex;
+    justify-content: space-around;
+}
+article #conteudo2{
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 20px;
+}
+#caixa-expo{
+    width: 360px;
+}
+#caixa-expo ul li a{
+    color: #c17c43;
+    text-decoration: none;
+}
+#caixa-expo ul li a:hover{
+    color: #979767;
+    
+}
+#caixa-hist{
+    width: 300px;
+}
+#leiamaisbtn{
+    color: #e4924f;
+    text-decoration: none;
+}
+
+aside #caixa-form{
+    background-color: #CDC7B5;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    width: 312px;
+
+    padding: 6px 20px 20px 20px;
+    margin-top: 10px;
+}
+aside form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+aside #data{
+    width: 128px;
+    margin-left: 0px;
+}
+aside #pessoas{
+    width: 30px;
+    margin-left: 0px;
+}
+.nometxt{
+    margin-right:-2px;
+}
+aside button{
+    background-color: #9D9175;
+
+    width: 100%;
+
+    font-weight: bold ;
+    text-align: center;
+    color: white;
+
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+
+    margin-top: 20px;
+}
+aside h3{
+    color: #8C6949;
+}
+aside #caixa-galeria{
+    background-color: #EDE5DF;
+    width: 352px;
+    
+    margin-bottom: 20px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ 
+}
+aside #caixa-galeria h3{
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#fotos-galeria{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 25px;
+}
+aside div.foto{
+    background: url('../imagens/fundo-foto.png') no-repeat;
+    width: 170px;
+    height: 170px;
+
+}
+div.foto img{
+    position: relative;
+    top: 12%;
+    left: 11%;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    
+}
+footer nav{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+footer span{
+    color: #c17c43;
+    
+}
