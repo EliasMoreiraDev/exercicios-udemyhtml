@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+    <style>
+        /*Site para prefixos automaticos: https://autoprefixer.github.io*/
+        #conteudo{
+            background-color: rgb(162, 162, 162);
+            height: 400px;
+
+            display: flex;
+
+            /*row | row-reverse | column | column-reverse*/
+            /*flex-direction: row;
+
+            /*nowrap | wrap | wrap-reverse*/
+            /*flex-wrap: nowrap;
+
+            /*flex-start | flex-end | center | space-between | space-around*/
+            /*justify-content: space-around;
+
+            /*stretch|center|flex-start | flex-end |baseline*/
+            /*align-items: baseline;*/
+        }
+        .item{
+            background-color: white;
+            border: 1px solid gray;
+            width: 200px;
+            height: 100px;
+
+            /*Define propoção de espaço ocupado por um item*/
+            flex-grow: 1;
+            
+            /*Define a capacidade de redução de tamanho de item*/
+            flex-shrink: 1;
+
+            /*Indica o tamanho inicial do flex item antes da distribuição do espaço restante*/
+            flex-basis: 100px;
+            
+            margin: 10px;
+        }
+        .item1{
+            flex-grow: 1;
+            /*flex-shrink: 1;*/
+        }
+        .item2{
+            flex-grow: 2;
+            /*flex-shrink: 7;*/
+        }
+        /*.ordem{
+            order: -1;
+        }
+        .ordem1{
+            order: 1;
+        }
+        .ordem2{
+            order: 2;
+        }
+        .ordem3{
+            order: 3;
+        }
+        .ordem4{
+            order: 4;
+        }*/
+    </style>
+<body>
+    <h1>FlexBox</h1>
+    <div id="conteudo">
+        <div class="item item1">01</div>
+        <div class="item item2">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>

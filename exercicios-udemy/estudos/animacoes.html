@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes animacao {
+        from{/*Estado Inicial*/
+            background-color: blue;
+            border-radius: 0px;
+            top: 0px;
+            left: 0px
+            
+        }
+        to{/*Estado Inicial*/
+            background-color: rgb(88, 111, 209);
+            border-radius: 50%;
+            top: 200px;
+            left: 100px;
+        }
+    }
+    @keyframes animacao2 {
+        from{/*Estado Inicial*/
+            background-color: rgb(255, 0, 0);
+            border-radius: 0px;
+            top: 0px;
+            left: 0px;
+        }
+        to{/*Estado Inicial*/
+            background-color: rgb(222, 135, 135);
+            border-radius: 50%;
+            top: -200px;
+            left: -100px;
+        }
+    }
+    #caixa{
+        margin: auto;
+        margin-top: 40%;
+        
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation: animacao 3s 3s 5 alternate;
+        position: relative;
+        
+    }
+    #caixa2{
+        margin: auto;
+        
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 0, 0);
+        animation: animacao2 3s 3s 5 alternate;
+        position: relative;
+    }
+</style>
+<body>
+    <div id="caixa"></div>
+    <div id="caixa2"></div>
+</body>
+</html>
